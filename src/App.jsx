@@ -1,14 +1,14 @@
-import MyChannel from "./Components/MyChannel/MyChannel"
-
-
+import BodyContent from "./Components/BodyContent/BodyContent"
+import FooterContent from "./Components/FooterContent/FooterContent"
+import HeaderContent from "./Components/HeaderContent/HeaderContent"
 
 function App() {
   return (
     <>
 
-    <h1>helo react app</h1>
-    <MyChannel />
-      
+   <HeaderContent />
+     <BodyContent /> 
+     <FooterContent />
     </>
   )
 }
